@@ -437,7 +437,7 @@ func NewGaiaApp(
 	// create static IBC router, add transfer route, then set and seal it
 	ibcRouter := porttypes.NewRouter()
 	ibcRouter.AddRoute(icahosttypes.SubModuleName, icaHostIBCModule).
-		AddRoute(ibctransfertypes.ModuleName, transferIBCModule)
+		AddRoute(ibctransfertypes.ModuleName, routerModule)
 
 	app.IBCKeeper.SetRouter(ibcRouter)
 
