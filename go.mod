@@ -14,7 +14,7 @@ require (
 	github.com/spf13/cast v1.4.1
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/viper v1.10.1
-	github.com/strangelove-ventures/packet-forward-middleware/v2 v2.1.1-0.20220506165035-dc8879a32c93
+	github.com/strangelove-ventures/packet-forward-middleware/v2 v2.1.4-0.20220811162229-c11990904b74
 	github.com/stretchr/testify v1.7.1
 	github.com/tendermint/tendermint v0.34.19
 	github.com/tendermint/tm-db v0.6.7
