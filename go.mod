@@ -277,5 +277,6 @@ replace github.com/confio/ics23/go => github.com/cosmos/cosmos-sdk/ics23/go v0.8
 
 replace (
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
+	github.com/strangelove-ventures/packet-forward-middleware/v2 => github.com/quasar-finance/packet-forward-middleware/v2 v2.1.2-0.20220419223949-e6b4750141f3
 	google.golang.org/grpc => google.golang.org/grpc v1.33.2
 )
